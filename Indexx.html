@@ -1,1 +1,168 @@
-<html> </html>
+<!DOCTYPE html>   
+<html>
+
+<head>
+
+<meta charset = "utf-8">
+
+      <title>Viva verde store </title>
+<!-- login icon and link to another page -->
+	  <div class="icon">
+
+<a href= "login.html">
+
+<img src = "login.png" width = "65" height = "50"
+
+            alt = "login logo">
+
+</a>
+
+<!-- application icons with images and links to communication -->
+
+<a href= "https://api.whatsapp.com/send/?phone=966540074409&text&app_absent=0">
+
+<img src = "Whatslogo.png" width = "65" height = "50"
+
+            alt = "whatsApp logo">
+
+</a>
+
+<a href= "https://www.instagram.com/viva_verde1/?igshid=1fcghodtcky3s">
+
+<img src = "instalogo.png" width = "65" height = "50"
+
+            alt = "Instegram logo">
+
+</a>
+</div>	
+<!-- Linking External Style Sheets-->
+	  <link rel="stylesheet" type="text/css" href="style.css">
+<!--store logo -->
+<div class="logo">
+
+<img src = "logo.png" width = "330" height = "220"
+
+            alt = "Viva verde store logo">
+
+</div>
+<!--JavaScript to welcome the user and display time/date using if statment-->
+  <script>
+
+
+
+         var name; 
+
+         var now = new Date();
+
+         var hour = now.getHours(); 
+
+
+
+         
+
+         name = window.prompt( "Please enter your name" );
+
+
+
+         if ( hour < 12 )
+
+
+            document.write( "<p style= 'font-size:20px; font-family: Comic Sans MS; color:#bc8f8f;'>Good Morning,  </p>" );
+
+
+
+         
+
+         if ( hour >= 12 )
+
+         {
+
+           
+
+            hour = hour - 12;
+
+
+
+       
+
+            if ( hour < 6 )
+
+
+               document.write( "<p style= 'font-size:20px; font-family: Comic Sans MS; color:#bc8f8f;'>Good Afternoon,  </p>" );
+
+
+
+        
+
+            if ( hour >= 6 )
+
+
+               document.write( "<p style= 'font-size:20px; font-family: Comic Sans MS; color:#bc8f8f;'>Good Evening,  </p> ");
+
+         } 
+
+         document.writeln( "<p style= 'font-size:20px; font-family: Comic Sans MS; color:#bc8f8f;'>");
+
+         document.writeln( "Hello " + name + "👋,Thank you for visiting Viva verda store </p><br>");
+
+
+
+      </script>
+
+
+
+</head>  
+
+<body bgcolor="#ffe6e6">
+
+ <br>
+
+<ul> 
+<!-- top menu for navigating -->
+<li><a href="Indexx.html"  class="ac"> Home </a></li>
+
+<li><a href="flowers.html">Flowers & Bouquet</a></li>
+
+<li><a href="prices.html"> Prices</a></li>
+
+</ul>
+
+
+<!--creating scrollable text from right to left -->
+<marquee>
+
+	<h1 style= "font-size: 20pt; font-family: Comic Sans MS; color: #DAA520;" > "In joy or sadness, flowers are our constant", Welcome to Viva verde store 🤩🖤🖤 </h1>
+
+</marquee>
+<br><br>
+<!--introduction about our store using heading-->
+<div class ="about">
+
+ <p style= "font-size:40px; font-family: Andale Mono; color:#DAA520;"> About Us :</p> <!--inline style-->
+
+  
+
+<h1> Viva verde,is an online flowers store🌻 <br> It can makes it easy for customers to choose and sort bouquets . </h1>
+
+   <h2> The customer would have the ability to pick the location and the delivery time of
+
+    their bouquets with the possibility of adding a gift card as well,This will make it easy for people who can’t visit our store😇.<br> <br>
+
+we pride ourselves in creating a seamless experience for our customers and making sending flowers and gifts as enjoyable as receiving them.
+
+And we source our flowers daily from the best growers and farmers around the world to create one of a kind stunning arrangements and plants that fit every occasion<br> </h2>
+
+    </div>
+	<!-- footer tag appear bottom of the page and contain link to email -->
+ <footer>
+
+  <p>This website is designed for frist project in Mean stack courses<br>
+
+
+  <a  style= "color:#bc8f8f;"href=""</a></p>
+ </footer>
+
+</body>
+
+</html>
+
